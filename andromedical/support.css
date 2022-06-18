@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;700&display=swap');
+
+
+body
+{
+font-family: Changa, sans-serif;
+  background-color: white;
+	margin: 0px;
+	background-image: url("opacity.png");
+}
+.container {
+   width: auto;
+   margin: auto;
+   max-width: 1366px;
+	    padding-left: 25px;
+    padding-right: 25px;
+
+}
+ul {
+   list-style: none ;
+   padding: 15 ;
+   margin: 85 ;
+}
+/* end global */
+
+
+/* start navbar */
+	/* start dark mood*/
+.dark-mode {
+  background-color: #00002e;
+  color: white;
+}
+/* end dark mood */
+
+.navbar
+{
+  background-color: #289dd2;
+    
+}
+.navbar .brand {
+   float: left
+   
+}
+.navbar .links{
+  display: inline;
+  float: right;
+}
+.navbar .links li{
+   display: inline-block;
+   padding: 10px 15px 15px ;
+}
+ .navbar .links li.active ,
+.navbar .links li hover{
+   color: white;
+}
+.navbar ul{
+  flex: 1;
+  text-align: right;
+}
+nav ul li a{
+  color:black;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color:white;
+}
+
+.clearfix {
+clear : both;
+}
+
+
+
+
+h1{
+    padding-left: 50px;
+}
+.text{
+
+padding-bottom: 80px;
+padding-left: 50px;
+font-size: 28px;
+	font-family: changa;
+color: rgb(9, 6, 165);
+
+}
+
+.container1 {
+
+    display: block;
+    position: relative;
+    padding-left: 150px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    color: darkblue;
+}
+
+      /* ----------------image-------------- */
+      .image{
+     width: 1200px;
+    float: right;
+        position: absolute;
+    padding-left: 740px;
+    padding-top: 100px;
+   z-index:-1;
+  } 
+      /*------------------------- ------تنسيقات القائمه -----------------------------*/
+      #myInput {
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 14px 20px 12px 45px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+      }
+
+      #myInput:focus {outline: 3px solid #ddd;}
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f6f6f6;
+        min-width: 230px;
+        overflow: auto;
+        border: 1px solid #ddd;
+        z-index: 1;
+      }
+
+      .dropdown-content p {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown p:hover {background-color: #ddd;}
+
+      .show {display: block;}
+     /* --------------------------------------------------------- */
+
+  /* Hide the browser's default checkbox */
+
+  .container1 input { 
+
+    
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+
+    border: 10px solid rgb(13, 61, 150);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    background-color: #eee;
+    margin-left: 105px;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container1:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container1 input:checked ~ .checkmark {
+    background-color: #15b846;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container1 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container1 .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* mony click action */
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.click-mony-label-bottom {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+/* --------------form of mony------------ */
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* text of login */
+
+
+/* Add styles to the form container */
+.form-container1 {
+  width: 245px;
+  height: 295px;
+  padding: 10px;
+  background-color: white;
+}
+
+.login{
+  margin-bottom: 20px;
+}
+.form-container1 .input-name,
+.form-container1 .input-number
+
+{
+  height: 20px;
+  width: 85%;
+  margin-top: 5px;
+  opacity: 1;
+  margin-bottom: 20px;
+  display:block;
+  border :  none;
+  border-bottom: 1px solid #000;
+}
+
+.form-container1 label{
+  display: block;
+}
+
+
+
+/* When the inputs get focus, do something */
+.form-container1 input:focus {
+  /* background-color: #ddd; */
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container1 .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container1 .cancel {
+  background-color: red;
+}
+
+/* .Omnia{
+	position: relative;
+    bottom: 374px;
+    left: -40px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.Arafat{
+	position: relative;
+    top: -375px;
+    left: 37px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.Fahmy{
+	
+	 position: relative;
+    bottom: 375px;
+    left: 111px;
+    display: inline-block;
+    font-size: 20px;
+}
+ */
+
+
+
+
+/* .supmit{
+	
+	
+
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    
+    margin-bottom: 10px;
+    opacity: 0.8;
+	
+	margin-left: 119px;
+    margin-top: 57px;
+    width: 123px;
+    height: 46px;
+    border-radius: 13px;
+	background-color:red;
+    
+	
+	
+} */
+.supmitb{
+	
+	
+	background: dodgerblue;
+    margin-left: 119px;
+    margin-top: 57px;
+    width: 123px;
+    height: 46px;
+    border-radius: 13px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}

@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;700&display=swap');  
+
+
+body {
+	font-family: Changa, sans-serif;
+  padding: 0;
+  background-color: white;
+  color: black;
+	margin: 0px;
+	background-image: url("opacity.png");
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    max-width: 1366px;
+         padding-left: 25px;
+     padding-right: 25px;
+ 
+ }
+ ul {
+    list-style: none ;
+    padding: 15 ;
+    margin: 85 ;
+ }
+ /* end global */
+ 
+ 
+ /* start navbar */
+     /* start dark mood*/
+ .dark-mode {
+   background-color: #00002e;
+   color: white;
+ }
+
+.dark-mode .docotors div {
+	background-color: #289dd2;
+}
+ /* end dark mood */
+ 
+ .navbar
+ {
+   background-color: #289dd2;
+     
+ }
+ .navbar .brand {
+    float: left
+    
+ }
+ .navbar .links{
+   display: inline;
+   float: right;
+ }
+ .navbar .links li{
+    display: inline-block;
+    padding: 10px 15px 15px ;
+ }
+  .navbar .links li.active ,
+ .navbar .links li hover{
+    color: white;
+ }
+ .navbar ul{
+   flex: 1;
+   text-align: right;
+ }
+ nav ul li a{
+   color:black;
+   text-decoration: none;
+ }
+ nav ul li a:hover{
+   color:white;
+ }
+ 
+ .clearfix {
+ clear : both;
+ }
+ 
+     
+ 
+
+.Name{
+   text-align: center;
+	font-size: 38px;
+    position: relative;  
+    bottom: -57px;
+	
+}
+
+ .search{
+    width: 80%;
+    padding: 21px 20px;
+    margin: 205px 0;
+    /* box-sizing: border-box; */
+    border-radius: 61px;
+}
+
+.search:focus{
+    border-radius: 61px;
+}
+
+
+
+.form{
+    margin: 14%;
+    padding: -31%;
+    margin-bottom: 305px;
+    margin-right: 27px;
+    margin-top: -124px;
+    padding-left: 27px;
+}
+
+.docotors{ 
+    margin: 38px auto;
+    width: 1324px;
+    height: 2283px;
+    display: grid;
+    position: relative;
+    top: -399px;
+    left: 1px;
+    grid-template-columns: repeat(3, 311px);
+    grid-template-rows: repeat(4,478px);
+    row-gap: 117px;
+    column-gap: 193px;
+    
+}
+
+
+.docotors div{
+    background-color: #00002e;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.doctor1 div{
+    background-image: url(ahmet-oktay.jpg);
+    background-position: 230px 678px;
+    background-size: cover;
+    height: 190px;
+    border-radius: 149px;
+    position: relative;
+    bottom: 30px;
+}
+    
+
+.name1{
+font-size: 32px;
+    position: relative;
+    bottom: 94px;
+}
+
+.Specialization1 {
+    font-size: 28px;
+    padding: -21px;
+    position: relative;
+    bottom: 131px;
+    color: #00ffa9e8;
+}
+
+
+.doctor2 div{
+    background-image: url(ashraf-abou-hlela.jpg);
+    background-position: 228px 689px;
+    background-size: cover;
+    height: 188px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+    
+
+
+
+.doctor3 div{
+    background-image: url(ramy-amin.jpg);
+    background-position: 246px 691px;
+    background-size: cover;
+    height: 189px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+
+}
+  
+
+.doctor4 div{
+    background-image: url(amit-goel.jpg);
+    background-position: 242px 676px;
+    background-size: cover;
+    height: 185px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.doctor5 div{
+    background-image: url(ahmed-hanafy.jpg);
+    background-position: 231px 590px;
+    background-size: cover;
+    height: 186px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+
+}
+  
+
+.doctor6 div{
+    background-image: url(./eman-nabil.jpg);
+    background-position: 227px 453px;
+    background-size: cover;
+    height: 188px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.doctor7 div{
+    background-image: url(ahmed-saqr.jpg);
+    background-position: 233px 291px;
+    background-size: cover;
+    height: 191px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+
+.doctor8 div{
+    background-image: url(deeak-pillai.jpg);
+    background-position: 225px 307px;
+    background-size: cover;
+    height: 193px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+
+.doctor9 div{
+    background-image: url(Dr-Shreen.jpg);
+    background-position: 226px 227px;
+    background-size: cover;
+    height: 185px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px;
+}
+
+.doctor10 div{
+    background-image: url(iman.jpg);
+    background-position: 235px 226px;
+    background-size: cover;
+    height: 192px;
+    border-radius: 120px;
+    position: relative;
+    bottom: 30px
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+.Myname{
+    position: relative;
+    bottom: 3202px;
+    left: 48px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #c2c2e8cc;
+    padding: 7px;
+    border-radius: 32px;
+}
+
+.Myid{
+    position: relative;
+    bottom: 3202px;
+    left: 55px;
+    display: inline-block;
+    font-size: 21px;
+    background-color: #c2c2e8cc;
+    padding: 7px;
+    border-radius: 32px;
+}
+
+.Myemail{
+    position: relative;
+    bottom: 3202px;
+    left: 61px;
+    display: inline-block;
+    font-size: 21px;
+    background-color: #c2c2e8cc;
+    padding: 7px;
+    border-radius: 32px;
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+  
+
+

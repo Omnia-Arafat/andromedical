@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="support.css">
+    <title>Support</title>
+    <meta content="">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+<body>
+    <!-- start navbar-->
+    <div class="navbar" id="ee">
+      <nav>
+      <div class="container">
+      <div class="brand">
+		  
+<img class="logo" src="Andromedical.png" width="110px">		  		  <br>
+		  		 
+
+      </div>
+      <ul class="links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="covid.html">Covid-19</a></li>
+          <li><a href="ourdoctors.html">Our Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="news.html">Research news</a></li>
+          <li><a href="frecords.html">Booking</a></li>
+          <li><a href="labs.html">Our labs</a></li>
+          <li><a href="support.html">Support Us</a>
+		          <li><button onclick="myFunction()">dark mode</button>
+</li>
+		  
+          </ul>
+         <div class="clearfix"></div>
+         </div>
+        </nav>
+    </div>
+    <!-- ------------------end navbar---------------------------------->	
+<h1>Support Us</h1>
+<div >
+  <img class="image"  src="support.png">
+
+ </div>
+
+  <div class="text">
+    Wherever you turn, you can find someone who needs you. Even if it is a little thing,
+    do something for which there is no pay but the privilege of doing it. Remember, you don’t live in the world all of your own.
+  </div>
+
+    <div class="dropdown">
+      <!-- <button onclick="myFunction()"></button> -->
+        <div onclick="myFunction1()" >
+          <div class=''><!--FORM GROUP which i delete-->
+            <label onclick="myFunction1()"  class="container1" class="blood">Blood
+              <input type="checkbox" >
+              <span class="checkmark" onclick="myFunction1()"></span>
+            </label>
+          </div>
+          <div id="myDropdown" class="dropdown-content">
+            
+            <p > A+</p>
+            <p >B+</p>
+            <p >AB+</p>
+            <p >O+</p>
+            <p >A-</p>
+            <p >B-</p>
+            <p >AB-</p>
+            <p >O-</p>
+          </div>
+        </div>
+        <!--label of money-->
+          <label  onclick="openForm()" class="container1">Money
+          <input type="checkbox">
+          <span class="checkmark"></span>
+
+          <!---------popup form clicking on mony--------->
+
+          <div>
+          <div class="form-popup" id="myForm">
+            <form action="welcome.html" class="form-container1">
+              <div class="login">Login</div>
+
+              <label  class="class-name">Name</label>
+              <input class="input-name" type="text" placeholder="please enter your name..."  >
+              <label ><b>Visa number</b></label>
+              <input type="number" class="input-number" placeholder="Enter your Visa number... "  required>
+              
+				 <button type="submit" class="btn">check</button>
+              
+            </form>
+          </div>
+        </div>
+
+          <!--label of voultaneer-->
+        </label>
+        <label class="container1">Another volunteer work
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+    </div>
+    
+	
+	<div class="supmit">
+    
+	<a href="welcome.html"><button type="supmit" class="supmitb">supmit</button></a>	
+	</div>
+
+<!-- --------------------------------------JAVA---------------------------------------------------- -->
+ <script>
+
+	 
+	 		  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+       /* When the user clicks on the button,
+      toggle between hiding and showing the dropdown content */
+     function myFunction1() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+
+
+      function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+
+
+      </script>
+
+	
+		
+	
+</body>
+	
+	
+	
+	
+	<!-- -------------------------------------FOOOOOOTER----------------------------------------------- -->
+	<br> <br> <br> <br> <br>
+	<br> <br> <br> <br> <br>
+	<br> <br> <br> <br> <br> <br> 
+	 <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">We always strive to be unique and distinguished in our work<i> Our team is one of the best teams</i>   for designing and developing web pages and we hope that the design has won your admiration.. You can contact us via e-mail or contact us through the following numbers and see all our work and get to know us more through the following link.</p>
+			</div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Devolpers</h6>
+            <ul class="footer-links">
+             <li><a href="https://www.facebook.com/kareem.keko2">Kareem Khaled</a></li>
+			  <li><a href="https://www.facebook.com/profile.php?id=100049631826495">Abdelrahman Rada</a></li>
+              <li><a href="https://www.facebook.com/omnia.arafat.526">Omnia Arafat</a></li>
+              <li><a href="https://www.facebook.com/eman.sayed.3950178">Eman Abdelsayed </a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100008894924147">Viola Amin</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">"Space Hospital Project", Faculty of Computers and Artificial Intelligence, Helwan University.
+            </p>
+          
+          </div>
+        </div>
+      </div>
+</footer>
+</html>

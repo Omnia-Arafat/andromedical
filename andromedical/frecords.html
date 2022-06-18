@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="frecords.css">
+    <title>booking</title>
+</head>
+
+
+<body>
+
+
+
+
+    <!-- start navbar-->
+    <div class="navbar" id="ee">
+      <nav>
+      <div class="container">
+      <div class="brand">
+		  
+<img class="logo" src="Andromedical.png" width="110px">		  		  <br>
+		  		 
+
+      </div>
+      <ul class="links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="covid.html">Covid-19</a></li>
+          <li><a href="ourdoctors.html">Our Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="news.html">Research news</a></li>
+          <li><a href="frecords.html">Booking</a></li>
+          <li><a href="labs.html">Our labs</a></li>
+          <li><a href="support.html">Support Us</a>
+		          <li><button onclick="myFunction()">dark mode</button>
+</li>
+		  
+          </ul>
+         <div class="clearfix"></div>
+         </div>
+        </nav>
+    </div>
+    <!-- end navbar-->
+		
+	
+
+  <br> <br> <br>
+  <br> <br> <br>
+	
+<span class="txt">Welcome, Thank you for choosing our hospital services. Please fill out the form below to book your appointment</span>
+	
+	<br> <br> <br>
+  <br> <br> <br>
+
+  <!-- <span class="sticy"> Make your Appointment</span> -->
+
+  <br> <br> <br>
+  <br> <br> <br>
+
+	
+	
+	<!-- ---------------------------start form------------------------------------ -->
+    <div class="hover">
+
+
+
+    <div class="regform">
+        <h1>
+ Registration Form</h1>
+</div>
+<div class="main">
+    
+        <form method="POST">
+            <div id="name">
+                <h2 class="name">
+Name </h2>
+<input class="firstname" type="text" name="first_name" required><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">last name</label>
+            </div>
+<h2 class="name">
+Card number </h2>
+<input class="card-number" type="number" name="card-number" placeholder="Enter the card number, if available">
+            <h2 class="name">
+Email</h2>
+<input class="email" type="email" name="email">
+            <h2 class="name">
+Phone</h2>
+<input class="Code" type="number" name="area_code" required>
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+    
+    
+            <h2 class="name">
+Doctor</h2>
+<select class="option" name="doctorr">
+                <option disabled="disabled" selected="selected">--select your doctor--</option>
+                <option>Prof. Dr. Ahmet Oktay</option>
+                <option>Dr. Ashraf Abou-Elela</option>
+                <option>Dr. Ramy Amin Kamal</option>
+	            <option>Dr. Amit Goel</option>
+                <option>Dr. Amal Hanafi</option>
+                <option>Dr. Eman Nabil.</option>
+                <option>Dr. Amed Saqr.</option>
+                <option>Dr. Deepak Pillai.</option>
+                <option>Dr. Sherin Hussain.</option>
+                <option>Dr. Iman AbuBakr</option>
+
+            </select>
+    
+            <h2 id="coustomer">
+Are you sure that all your information is correct?</h2>
+<label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+    
+            <label class="radio">
+                <input class="radio-two" type="radio" name="rdiobtn">
+                <span class="checkmark"></span>
+                No
+            </label>
+    
+            <button class="btnreg" type="submit">Register</button>
+    
+    
+        </form>
+</div>  
+
+    </div>
+	
+	
+
+
+<script>
+		  function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+	</script>
+
+
+
+
+</body>
+	
+	
+ <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">We always strive to be unique and distinguished in our work<i> Our team is one of the best teams</i>   for designing and developing web pages and we hope that the design has won your admiration.. You can contact us via e-mail or contact us through the following numbers and see all our work and get to know us more through the following link.</p>
+			</div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Devolpers</h6>
+            <ul class="footer-links">
+             <li><a href="https://www.facebook.com/kareem.keko2">Kareem Khaled</a></li>
+			  <li><a href="https://www.facebook.com/profile.php?id=100049631826495">Abdelrahman Rada</a></li>
+              <li><a href="https://www.facebook.com/omnia.arafat.526">Omnia Arafat</a></li>
+              <li><a href="https://www.facebook.com/eman.sayed.3950178">Eman Abdelsayed </a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100008894924147">Viola Amin</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">"Space Hospital Project", Faculty of Computers and Artificial Intelligence, Helwan University.
+            </p>
+          
+          </div>
+        </div>
+      </div>
+</footer>	
+	
+	
+	
+</html>
